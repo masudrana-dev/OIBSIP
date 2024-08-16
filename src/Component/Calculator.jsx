@@ -1,8 +1,14 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import './Calculator.css'
 
 const Calculator = () => {
-    const [value, setValue] = useState(' ')
+    const [value, setValue] = useState(localStorage.getItem("values") ?
+        JSON.parse(localStorage.getItem("values")) : [])
+
+    useEffect(() => {
+        localStorage.setItem("values", JSON.stringify(value));
+    }, [value])
+
     return (
         <div className='w-[100%] h-[100vh] flex justify-center items-center'>
             <div className='p-20 rounded-md bg-white'>
