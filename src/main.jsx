@@ -9,6 +9,7 @@ import "./index.css";
 import Home from './Component/Home';
 import Todo from './Component/Todo';
 import Calculator from './Component/Calculator';
+import Tribute from './Component/Tribute';
 
 const router = createBrowserRouter([
   {
@@ -22,6 +23,10 @@ const router = createBrowserRouter([
   {
     path: "/calculator",
     element: <Calculator />
+  },
+  {
+    path: "/tribute",
+    element: <Tribute />
   },
 ]);
 ReactDOM.createRoot(document.getElementById('root')).render(

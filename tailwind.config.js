@@ -5,7 +5,14 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      maxWidth: {
+        'contianer': '1344px'
+      },
+      fontFamily: {
+        "edu": "Edu VIC WA NT Beginner"
+      }
+    },
   },
   plugins: [],
 }
