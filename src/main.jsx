@@ -12,7 +12,7 @@ import Calculator from './Component/Calculator';
 import Tribute from './Component/Tribute';
 import Login from './Component/Login';
 import Registration from './Component/Registration';
-
+import './firebasae_config'
 const router = createBrowserRouter([
   {
     path: "/",
