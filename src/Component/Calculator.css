@@ -1,4 +1,4 @@
-form input {
+.form input {
     border: none;
     outline: 0;
     width: 60px;
@@ -10,17 +10,17 @@ form input {
     border-radius: 10px;
 }
 
-form input[type="button"]:hover {
+.form input[type="button"]:hover {
     background-color: rgb(137, 22, 245);
 }
 
-form .display {
+.form .display {
     display: flex;
     justify-content: flex-end;
     margin: 5px, 0px, 15px, 0px;
 }
 
-form .display input {
+.form .display input {
     text-align: right;
     flex: 1;
     font-size: 40px;

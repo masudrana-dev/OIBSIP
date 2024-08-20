@@ -10,7 +10,7 @@ const Home = () => {
                     <Link to='/todo'><li className='boder border-teal-600 bg-teal-600 text-white w-[140px] h-[60px] rounded-md font-medium text-[18px] inline-block flex items-center justify-center '>Todo</li></Link>
                     <Link to='/calculator'><li className='boder border-orange-600 bg-orange-500 text-white w-[140px] h-[60px] rounded-md font-medium text-[18px] inline-block flex items-center justify-center'>Calculator</li></Link>
                     <Link to='/tribute'><li className='boder border-yellow-500 bg-yellow-500 text-white w-[140px] h-[60px] rounded-md font-medium text-[18px] inline-block flex items-center justify-center'>Tribute</li></Link>
-                    <Link to='/todo'><li className='boder border-red-600 bg-red-600 text-white w-[140px] h-[60px] rounded-md font-medium text-[18px] inline-block flex items-center justify-center'>Login page</li></Link>
+                    <Link to='/login'><li className='boder border-red-600 bg-red-600 text-white w-[140px] h-[60px] rounded-md font-medium text-[18px] inline-block flex items-center justify-center'>Login page</li></Link>
                 </ul>
             </div>
         </div>

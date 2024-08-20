@@ -13,7 +13,7 @@ const Calculator = () => {
     return (
         <div className='w-[100%] h-[100vh] flex justify-center items-center'>
             <div className='p-20 roundenpd-md bg-white'>
-                <form action="" >
+                <form action="" className='form'>
                     <div className='display'>
                         <input type="text" value={value} />
                     </div>

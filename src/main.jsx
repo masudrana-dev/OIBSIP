@@ -10,6 +10,8 @@ import Home from './Component/Home';
 import Todo from './Component/Todo';
 import Calculator from './Component/Calculator';
 import Tribute from './Component/Tribute';
+import Login from './Component/Login';
+import Registration from './Component/Registration';
 
 const router = createBrowserRouter([
   {
@@ -27,6 +29,14 @@ const router = createBrowserRouter([
   {
     path: "/tribute",
     element: <Tribute />
+  },
+  {
+    path: "/login",
+    element: <Login />
+  },
+  {
+    path: "/registration",
+    element: <Registration />
   },
 ]);
 ReactDOM.createRoot(document.getElementById('root')).render(
